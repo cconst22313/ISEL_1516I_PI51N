@@ -1,0 +1,92 @@
+- 3 ou 4 trabalhos/fichas com prazos de entrega
+	No qual se inclui o trabalho final
+
+- fichas: 1?
+Até aqui, vale 60%, no qual o trabalho final e discussão têm um peso maior
+
+
+- Teste + Repetição (40%)
+
+Para o primeiro trabalho, é necessário fazer código numa qualquer linguagem que possa fazer pedidos http
+
+1. Javascript e nodeJs para se poder fazer o primeiro trabalho
+
+O que se vem aprender?
+- Aplicações na Web
+A ideia é começar a olhar para as app web no sentido de as fazer. Para o fazer tem que se ter um conjunto de conhecimentos:
+2 componentes:
+	- Cliente (foco em browser)
+		- HTML 5
+		- CSS
+		- Javascript + HTML5 Objects + JQwery + ...
+	- Servidor 
+		- existem várias, por isso vai-se adoptar Node.JS, por ser a que parece a mais adequada
+		(podia-se usar: ASP.NET MVC, Ruby on Rails, PHP, ...)
+
+Para colar as duas componentes acima:
+ 	- HTTP!!!
+
+
+Ler Javasript?!
+
+Ver os livros aconcelhados
+
+**********************************************************************************************************************************************
+*	23-09-2015
+**********************************************************************************************************************************************
+INSTRUÇÃO: é a unidade mínima indivisível para expressar uma ordem. Por si só não produz nada nem faz nada. (ex. )
+		   instrução necessita do ;... por exemplo: int a = 10; Só o é quando terminado por ;
+		   outro exemplo: m( ); -> instrução, mas apenas o m( ) é uma explessão...
+		   IF( ).. é um outro exemplo
+		   composto por:
+		   palavra reservada ('IF'), simbolo ( '(' ), expressão, simbolo ( ')' ), instrução composta, que começa e termina por { },
+		   ...
+		   Class xpot{
+		   		...
+		   }  //isto é uma instrução!!!!
+		   --> produzem erros sintáticos
+		   --> as instruções não têm tipo!
+		   --> "as  instruções em si, não fazem nada!"
+
+EXPRESSÃO: Expressões são partes constituites das instruções... PODEM ser compostas!!!
+		   As expressões quando executadas PRODUZEM um valor!!! TODAS sem excepção!
+		   --> produzem erros semânticos!!! Quando o resultado da expressão não é compatível com o espectável
+		   --> apenas as expressões têm tipo!!!!
+		   		"SLB" é uma instrução d tipo String
+
+		   EXPRESSÕES COMPOSTAS
+		   System.out.println("SLB")
+
+
+O que é a semântica? o significado de algo... 
+O compilador apenas consegue validar a semântica dos tipos! 
+Exemplo básico: int x = "asdfg"... o compilador avalia os tipos e verifica a sua compatibilidade
+
+LINGUAGEM IMPERATIVA: permite (a mim) mandar executar algo. O que escrevo são sequencias de ordens->INSTRUÇÕES
+
+
+
+ahhaha: um porgrama em JScript é uma sequencia de instruções hahahh
+JAVASCRIPT
+............................................................................................
+............................................................................................
+............######  ####  ##   ##  ####	  ####   #### #####   #### #####  ######............
+...............##  ##  ##  ## ##  ##  ## ##     ##    ##  ##   ##  ##  ##   ##..............
+...............##  ##  ##  ## ##  ##  ##  ####  ##    #####    ##  #####    ##..............
+............## ##  ######   ###   ######     ## ##    ##  ##   ##  ##       ##..............
+.............###   ##  ##    #	  ##  ##  ####   #### ##   ## #### ##       ##..............
+............................................................................................
+............................................................................................
+
+█
+
+
+
+
+
+
+
+
+
+
+
