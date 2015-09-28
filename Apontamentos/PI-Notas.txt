@@ -81,12 +81,103 @@ JAVASCRIPT
 █
 
 
+*****************************************************************************
+*	23-09-2015
+****************************************************************************
+
+O que é um literal? um literal é uma expressão constante... vale pelo valor que é.
+
+Tem palavras reservadas ou um conjunto de regras para representar um valor.
+
+No JScript podem existir objectos litetrais que são constante. Se forem alterados, é criado um onbjecto replica, que esse sim é mutável!
+
+Os tipos no JScript são 6:
+	- numbers
+	- strings
+	- Booleans
+	- objects
+	- functions
+	- undefined
+
+Os tipos servem (numa linguagem strongly-typed) para:
+	1. saber quanta memória é necessário reservar
+	2. limitar os valores válidos que podem conter
+	3. aceder ao comportamento e dados associcados a esse tipo
+
+O que não tem tipo, são as váriáveis. Em JAVA ou C uma determinada variável serve apenas para valores daquele tipo. No JScript não: as variáveis não são definidas pelo programador. O tipo da variável depende do que lá estiver. Ex:
+1 - var x = "SLB";
+2 - var y = x + 35; //SLB35
+3 - x = 10;
+4 - y = x + 35:		//45
+
+2 e 4 são iguais, mas retornam coisas diferentes!!!
+
+NUMBERS
+operador + tem um comportamento ligeiramente diferente: um operador necessita de operandos (operandos=expressões):
+  - unários: apenas tem que ter um operando
+  - binários: 
+
+var z;
+console.log(z); //undefined... não foi declardo!
+
+Quande soma uma coisa com um numero, mas a "coisa nao corre bem" -Z NaN - Not a Number
+
+Quando se divide um valor que deveria dar um devide by zero: dá infinity.
+
+Uma coisa gira: para colocar " dentro duma string: '"XPTO"' ou ao contrário
+Ter cuidado com:
+x="10"; console.log(x++);
+x="10"; console.log(x = x + 1);
+São duas coisas diferentes!!!!
+
+Outra diferença: == e ===
+10 == "10" 		//true
+10 === "10"		//false
+0 == false		//true
+0 === false		//false
+
+O == usa conversões
+O === não usa conversões!
+
+
+ECMA 6 -
+No node tem que se correr com o sufixo --harmony
+	
+
+FUNçÕES:
+cada vez que se chama um função é criado um novo contexto. Nesse contexto existem
+  * parametros formais
+  * this
+  * variáveis locais
+  * "arguments" - é algo que se assemelha a um array. Permite o acesso aos argumentos que foram passados com uma sintaxte de array.
 
 
 
+Uma fenómeno:
+		function showAllArguments(){
+		    console.log("~~~~~~~~~~~~~~~ 0 ~~~~~~~~~~~~~~~~~~~");
+		    for( var i = 0; i < arguments.length; i++){
+		        console.log('Arguments['+i+'] = '+arguments[i]);
+		    }
+		}
+
+		showAllArguments();
+		showAllArguments("SLB",10, 20, 30);
+		showAllArguments("SLB"," É o MAIOR!!!");
 
 
+		function showAllArguments(){
+		    console.log("~~~~~~~~~~~~~~~~ 1 ~~~~~~~~~~~~~~~~~~");
+		    for( var i = 0; i < arguments.length; i++){
+		        console.log('Arguments['+i+'] = '+arguments[i]);
+		    }
+		}
+
+		showAllArguments();
+		showAllArguments("SLB",10, 20, 30);
+		showAllArguments("SLB"," É o MAIOR!!!");
 
 
-
-
+O interpretador passa por todo o código antes de executar:
+ - se encontrar variáveis, define-as
+ - as funções ficam definidas ( a função pode ser invocada antes da sua defenição)

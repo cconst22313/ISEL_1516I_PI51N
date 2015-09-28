@@ -14,6 +14,6 @@ var f = function (msg) {
 }
 
 // str = "ISEL" // O strict mode impede a utilização de str SEM uma das keywords: var, let ou const
-var str = "ISEL"
+let str = "ISEL"
 
 f(str)
