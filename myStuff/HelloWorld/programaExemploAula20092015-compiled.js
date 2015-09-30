@@ -40,6 +40,7 @@ function showAllArguments() {
     console.log("~~~~~~~~~~~~~~~~ 1 ~~~~~~~~~~~~~~~~~~");
     for (var i = 0; i < arguments.length; i++) {
         console.log('Arguments[' + i + '] = ' + arguments[i]);
+        console.log("Arguments[" + i + "] = " + arguments[i]);
     }
 }
 
