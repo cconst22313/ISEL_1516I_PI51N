@@ -66,4 +66,32 @@ for (var i = 0; i < aret2.length; ++i) {
     console.log(aret2[i]());
 }
 
+//se for em ECMAScript 6!!!! j� tem coisas giras... no caso � ver o LET
+function f3(a, b) {
+    //pode ser usada em todo o contexto em que foi definido.
+    var local = 10;
+    //var a = new Array();
+    var a = [];
+
+    //"todos os fors que s�o necess�rios j� foram feitos"
+
+    var _loop = function (_i) {
+        a[_i] = function () {
+            return _i;
+        };
+    };
+
+    for (var _i = 0; _i < 10; ++_i) {
+        _loop(_i);
+    }
+    return a;
+}
+var aret3 = f3();
+
+//vai retornar 10 10, pois o i est� no contexto da fun��o...
+//assim quando a fun��o f retornar, o i est� com 10... :)
+for (var i = 0; i < aret3.length; ++i) {
+    console.log(aret3[i]());
+}
+
 //# sourceMappingURL=FunctionsClosure-compiled.js.map
