@@ -181,3 +181,50 @@ Uma fenómeno:
 O interpretador passa por todo o código antes de executar:
  - se encontrar variáveis, define-as
  - as funções ficam definidas ( a função pode ser invocada antes da sua defenição)
+
+
+
+*****************************************************************************
+*	30-09-2015
+*****************************************************************************
+ver funções lambda ou arrow (em javascript)
+
+
+*****************************************************************************
+*	05-10-2015
+*****************************************************************************
+
+De cada x q uma função é chamada é criado um contexto. É igual a todas as outras formas de programação na invocação dos métodos (por exemplo)
+
+O qeu contem o contexo de uma função?
+* parametros formais (também são variáveis)
+* variáveis declaradas dentro das Funções
+* as funções lá declaradas <- Confusão gerada por causa disto?
+
+Para criar scopes, temos que chamar funcções!
+
+-> O contexo da função só morre se a funcção continuar viva, através de uma função qeu foi definida dentro dentro do seu contexto (retornando uma referencia para uma função que é definida dentro de uma função)
+
+
+As funções são cidadãos de primeira classe em Javascript. Onde se pode passar uma variável com um valor.... também podemos ter uma função :)
+
+A aplicabilidade disto qual é? Onde dá jeito?
+- poder alterar o comportamento daquele código (em Código OO falamos de Polimorfismo)
+
+
+--\
+	OBJECTOS!
+--/
+
+O que uma variavel tem é:
+- uma váriavel	(Value Type)
+- um objecto    (Reference Type)
+
+--> uma função é um objecto!
+
+--\
+	node 	----------------------------------
+--/
+
+
+

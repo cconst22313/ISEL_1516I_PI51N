@@ -3,15 +3,33 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/crawlerV1/crawler-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/Literals-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/Functions-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionsClosure-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/Objects-compiled.js" />
         <item url="file://$PROJECT_DIR$/30092015/Functions-compiled.js" />
         <item url="file://$PROJECT_DIR$/30092015/FunctionsClosure-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/Functions-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionsClosure-compiled-compiled.js" />
+        <item url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionMemoising-compiled.js" />
         <item url="file://$PROJECT_DIR$/HelloWorld/programaExemploAula20092015-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/aula05102015/Aula 2015-09-30/Functions-compiled.js" />
+      <root url="file://$PROJECT_DIR$/aula05102015/Aula 2015-09-30/FunctionsClosure-compiled.js" />
+      <root url="file://$PROJECT_DIR$/aula05102015/Aula 2015-09-30/Functions-compiled.js" />
+      <root url="file://$PROJECT_DIR$/aula05102015/Aula 2015-09-30/FunctionsClosure-compiled.js" />
       <root url="file://$PROJECT_DIR$/crawlerV1/crawler-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/Literals-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/Functions-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionsClosure-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/Objects-compiled.js" />
       <root url="file://$PROJECT_DIR$/30092015/Functions-compiled.js" />
       <root url="file://$PROJECT_DIR$/30092015/FunctionsClosure-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/Functions-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionsClosure-compiled-compiled.js" />
+      <root url="file://$PROJECT_DIR$/Aula 2015-09-30/FunctionMemoising-compiled.js" />
       <root url="file://$PROJECT_DIR$/HelloWorld/programaExemploAula20092015-compiled.js" />
     </CLASSES>
     <SOURCES />
